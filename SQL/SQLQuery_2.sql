@@ -73,7 +73,7 @@ From dbo.Products p
 Where p.ProductID in (
     Select d.productID
     From dbo.[Order Details] d join dbo.Orders o on d.OrderID = o.OrderID
-    Where o.OrderDate >= DateADD(YEAR,-25,GETDATE()) 
+    Where o.OrderDate >= DateADD(YEAR,-26,GETDATE()) 
 )
 
 --15
@@ -85,7 +85,7 @@ Order by Count(orderID) desc
 --16
 Select top 5 ShipPostalCode
 From dbo.Orders
-Where OrderDate >= DateADD(YEAR,-25,GETDATE()) 
+Where OrderDate >= DateADD(YEAR,-26,GETDATE()) 
 Group by ShipPostalCode
 Order by Count(orderID) desc
 
