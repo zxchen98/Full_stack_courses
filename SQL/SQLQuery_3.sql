@@ -25,10 +25,15 @@ From Customers c left join orders o ON c.CustomerID = o.CustomerID left join [Or
 Group by C.City
 
 --5 use union
-Select City  
-From Customers    
-Group by City  
-Having Count(CustomerID)>=2
+Select distinct City From Customers
+Except
+Select City From Customers   
+Group By City
+Having Count(CustomerID) = 1
+UNION
+Select City From Customers   
+Group By City
+Having Count(CustomerID) = 0
 
 
 --5 use sub-query
@@ -76,3 +81,7 @@ Where o.OrderID is null
 
 --10
 
+
+--11
+Select distinct *
+From xxx
