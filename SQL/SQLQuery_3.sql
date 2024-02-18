@@ -80,7 +80,22 @@ From Employees e left join Customers c on e.City = c.City left join Orders o on 
 Where o.OrderID is null
 
 --10
+With MostOerder as(
+    Select top 1 e.City
+    From Employees e join Orders o on e.EmployeeID = o.EmployeeID
+    Group by e.City  
+    Order by Count(o.OrderID) desc
+),
+MostPopular as(
+    Select top 1 c.City
+    From Customers c join orders o on c.CustomerID = o.CustomerID join [Order Details] d on d.OrderID = o.OrderID
+    Group by c.City
+    order by Sum(d.Quantity) desc
+)
 
+Select * From MostOerder
+INTERSECT
+Select * From MostPopular
 
 --11
 Select distinct *
