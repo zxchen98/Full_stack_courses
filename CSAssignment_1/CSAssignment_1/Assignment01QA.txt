@@ -1,0 +1,27 @@
+----- Understanding Data Types QA
+1. String
+2. Float
+3. Int
+4. Enum
+5. Decimal
+6. String
+7. Decimal
+8. float
+9. Uint
+10. Ulong
+11. Int
+
+Value type vs Reference Type variables
+--1. Value type directly store its data while reference type store the address of data in memory
+--2. Value type variables are stored in stack while reference type objects are stored in heap
+
+Boxing and Unboxing: boxing is the operation to convert a value type varible to reference types, and unboxing means
+    the opposite operation
+
+Managed resource and Unmanaged resource:
+
+Garbage Collector: 
+     
+
+
+
