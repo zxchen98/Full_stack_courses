@@ -1,0 +1,7 @@
+1. Use String when you are dealing with immutable text. Use Stringbuffer when you want to change the string content
+2. The Array class in System is the base for all arrays
+3. You can use Array.sort() method in Array class
+4. You can use .Length property
+5. Yes if they come from a common base type like Object, you can declare this to be a object[]
+6. They both perform the shallow copy but .Copyto() does not return a new array, it will copy each index to an existing array. Whereas .Clone()
+    will shallow copy the original array and return a new array

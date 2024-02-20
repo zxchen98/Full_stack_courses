@@ -1,0 +1,15 @@
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/bin/Debug/net8.0/CSAssignment_2
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/bin/Debug/net8.0/CSAssignment_2.deps.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/bin/Debug/net8.0/CSAssignment_2.runtimeconfig.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/bin/Debug/net8.0/CSAssignment_2.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/bin/Debug/net8.0/CSAssignment_2.pdb
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.AssemblyInfoInputs.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.AssemblyInfo.cs
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.csproj.CoreCompileInputs.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.sourcelink.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/refint/CSAssignment_2.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.pdb
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/CSAssignment_2.genruntimeconfig.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_2/CSAssignment_2/obj/Debug/net8.0/ref/CSAssignment_2.dll
