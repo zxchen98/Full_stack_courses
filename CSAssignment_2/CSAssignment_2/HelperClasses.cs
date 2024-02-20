@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace CSAssignment_2;
 
 public class PracticeArrays
@@ -180,5 +182,126 @@ public class PracticeString
         {
             Console.Write($"{arr[i]} ");
         }
+    }
+
+    public void ReverseSentence(string str)
+    {
+        StringBuilder strb = new StringBuilder(str);
+        char[] delimeters = new char[]{',','.',':',';','=','(',')','&','[',']','"','\\','/','?','!'};
+        List<List<object>> indexs = new List<List<object>>();
+        string[] tokens = str.Split(' ');
+        
+        for (int i = 0; i < tokens.Length; i++)
+        {
+            bool startWord = false;
+            for (int j = 0; j < tokens[i].Length; j++)
+            {
+                if (delimeters.Contains(tokens[i][j]))
+                {
+                    indexs.Add(new List<object>() { i, startWord, tokens[i][j] });
+                    continue;
+                }
+
+                startWord = true;
+            }
+            for (int j = 0; j < delimeters.Length; j++)
+            {
+                tokens[i]=tokens[i].Replace(delimeters[j].ToString(), "");
+            }
+        }
+        Array.Reverse(tokens);
+        for (int i = 0; i < indexs.Count; i++)
+        {
+            int widx = (int)indexs[i][0];
+            bool cidx = (bool)indexs[i][1];
+            char deli = (char)indexs[i][2];
+            
+            if (cidx)
+            {
+                tokens[widx] = tokens[widx] + deli;
+            }
+            else
+            {
+                tokens[widx] = deli + tokens[widx];
+            }
+        }
+
+        Console.WriteLine(String.Join(" ", tokens));
+
+    }
+
+    public bool isPalindrom(string str)
+    {
+        int i = 0;
+        int j = str.Length-1;
+        while (j > i)
+        {
+            if (!str[i].Equals(str[j]))
+            {
+                return false;
+            }
+
+            i += 1;
+            j -= 1;
+        }
+        return true;
+    }
+
+    public void extractPalindrom(string str)
+    {
+        List<string> res = new List<string>();
+        string[] tokens = str.Split(' ', ',');
+        char[] delimeters = new char[]{',','.',':',';','=','(',')','&','[',']','"','\\','/','?','!'};
+
+        for (int i = 0; i < tokens.Length; i++)
+        {
+            for (int j = 0; j < delimeters.Length; j++)
+            {
+                tokens[i]=tokens[i].Replace(delimeters[j].ToString(), "");
+            }
+
+            if (isPalindrom(tokens[i]))
+            {
+                res.Add(tokens[i]);
+            }
+        }
+
+        String[] newres = res.ToArray();
+        Array.Sort(newres);
+        foreach (string i in newres)
+        {
+            Console.Write($"{i}, ");
+        }
+    }
+
+    public void ParseURL(string str)
+    {
+        int http = str.IndexOf("://");
+        string serverStr = "";
+        if (http != -1)
+        {
+            serverStr = str.Substring(http+3);
+            Console.WriteLine($"[Protocol] =  {str.Substring(0, http)}");
+        }
+        else
+        {
+            serverStr = str;
+            Console.WriteLine($"[Protocol] =  ''");
+        }
+        
+        int server = serverStr.IndexOf("/");
+        if (server != -1)
+        {
+            Console.WriteLine($"[Server] = {serverStr.Substring(0, server)}");
+
+            Console.WriteLine($"[Resource] = {serverStr.Substring(server + 1)}");
+        }
+        else
+        {
+            Console.WriteLine($"[Server] = {serverStr}");
+
+            Console.WriteLine($"[Resource] = ''");
+        }
+
     }
 }
