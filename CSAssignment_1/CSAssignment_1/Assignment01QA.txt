@@ -14,14 +14,29 @@
 Value type vs Reference Type variables
 --1. Value type directly store its data while reference type store the address of data in memory
 --2. Value type variables are stored in stack while reference type objects are stored in heap
+--3 Value type will not be collected by garbage collector but reference type will be collected
+--4 Value type can be created by struct or enum while reference type can be created by class, interface, delegate or array
+--5 Value type can not accept null values but reference type can
 
 Boxing and Unboxing: boxing is the operation to convert a value type varible to reference types, and unboxing means
     the opposite operation
 
-Managed resource and Unmanaged resource:
+Managed resource and Unmanaged resource: can call Dispose() from Inisposable interface in unmanaged heap
 
-Garbage Collector: 
-     
+Garbage Collector: it can recollect the memory usage of object that no longer can be accessed
+
+------Controlling Flow and Converting Types QA
+1. There will be an Division by constant zero error being thrown to users
+2. There will no errors, it will output infinity
+3. There will be an overflow error says integral constant is too large
+4. when assigning x=y++, then x will be assign the value of y then y increase by 1. Whereas x=++y, y will be increment by 1 first and assign
+    the value to x
+5. break will exit the loop, continue will skil the current iteration and continue to the next, return will exit the method and return the value
+6. initialization when loop starts like i=0; condition if satified the loop will execute like i<100; iterator execute when one iteration of loop is done like i++
+7. = is a assign statement, it will assign the value of right to the left. == is a comparator, it will compare two values are the same or not
+8. it will compile and end with an infinate loop
+9. it is like an 'default' statement that match any value
+10. The IEnumberable interface must be implemented to use foreach
 
 
 
