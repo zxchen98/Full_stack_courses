@@ -1,0 +1,54 @@
+1.  --public: access is not limited
+    --private: access is limited to the current class
+    --protected: access is limited to the current class and subclasses
+    --internal: access is limited to the current assembly
+    --protected internal: access is limited to the current assembly or subclass
+    --private protected: access is limited to the containing class or subclass whithin the current assembly
+    
+2.  --static: can not be instantiated, belong to the type itself
+    --const: the value is set in compile time and can not be changed
+    --readonly: the value is set in runtime and cannot be changed
+
+3. Constructors are used to initialize a new instance of that class
+
+4. it is used to split a class, struct, interface into multiple files. It is useful when the project is too large
+    or separately implementing interfaces
+
+5. It is a data structure that is immutable and can store elements of different datatypes
+
+6. record keyword defines a reference type that provide built-in functionality fro encapsulating data.
+
+7. overload means to have same method name but different parameters in child class than in the parent class. Where override means
+    the child class has the same method (name and parameters) as the parent class
+
+8. A field is a variable decleared in a class. A property acts as a public interface to a field. Property use getters and setters to access field
+
+9. By specifying a default value like int a= 3
+
+10. Interface will always have abstract method. A class can implement multiple interfaces but only one abstract class
+
+11. all methods are public in an interface
+
+12 TRUE
+
+13 TRUE
+
+14 FALSE
+
+15 FALSE
+
+16 TURE
+
+17 TRUE
+
+18 TRUE
+
+19 FALSE
+
+20 False
+
+21 TRUE
+
+22 FALSE
+
+23 TRUE
