@@ -1,0 +1,19 @@
+1. generics allows to specify the data type when working with collections or methods without writing duplicate code for each type.
+
+2. List<string> ls = new List<string>();
+
+3. There are two generics type: key and value
+
+4. False
+
+5. List.Add() method
+
+6. Remove() and RemoveAt()
+
+7. it has the "<>" symbol
+
+8.False
+
+9. True
+
+10. True

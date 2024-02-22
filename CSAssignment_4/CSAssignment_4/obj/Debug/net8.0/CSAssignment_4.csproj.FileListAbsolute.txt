@@ -1,0 +1,15 @@
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/bin/Debug/net8.0/CSAssignment_4
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/bin/Debug/net8.0/CSAssignment_4.deps.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/bin/Debug/net8.0/CSAssignment_4.runtimeconfig.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/bin/Debug/net8.0/CSAssignment_4.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/bin/Debug/net8.0/CSAssignment_4.pdb
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.AssemblyInfoInputs.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.AssemblyInfo.cs
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.csproj.CoreCompileInputs.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.sourcelink.json
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/refint/CSAssignment_4.dll
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.pdb
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/CSAssignment_4.genruntimeconfig.cache
+/Users/zhaoxiangchen/Desktop/Full_stack_courses/CSAssignment_4/CSAssignment_4/obj/Debug/net8.0/ref/CSAssignment_4.dll
